@@ -1,5 +1,11 @@
 plugins {
     id("java")
+    application
+    id("com.gradleup.shadow") version "9.0.1"
+}
+
+application {
+    mainClass.set("br.com.dio.Main")
 }
 
 configurations {
