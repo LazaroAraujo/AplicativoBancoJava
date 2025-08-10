@@ -40,11 +40,11 @@ O projeto é baseado em interação via **linha de comando (CLI)** e foi desenvo
    ```
 3. **Compile o projeto**
    ```bash
-   javac src/*.java
+   ./gradlew shadowjar
    ```
 4. **Execute**
    ```bash
-   java src.Main
+   java -jar .\build\libs\AplicativoBancoJava-1.0-SNAPSHOT-all.jar
    ```
 
 ---
