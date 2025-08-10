@@ -1,16 +1,16 @@
-package br.com.dio.repository;
+package br.com.dio;
 
 import br.com.dio.exception.AccountNotFoundException;
 import br.com.dio.exception.NotEnoughFundsException;
 import br.com.dio.exception.WalletNotFoundException;
 import br.com.dio.model.AccountWallet;
+import br.com.dio.repository.AccountRepository;
+import br.com.dio.repository.InvestmentRepository;
 
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 import static java.time.format.DateTimeFormatter.ISO_DATE_TIME;
-import static java.time.temporal.ChronoUnit.SECONDS;
 
 
 public class Main {
